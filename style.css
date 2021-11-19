@@ -1,8 +1,14 @@
+a{
+    text-decoration: none!important;
+}
 li{
     list-style:none;
 }
 textarea{
     resize: none;
+}
+h1{
+    font-size: 1.3em!important;
 }
 h3{
     font-size: 2.5em!important;
@@ -29,4 +35,17 @@ h4{
 /* TESTIMONIOS */
 .testimonios__article div{
     padding: 10%!important;
+}
+
+/* FOOTER */
+
+#footer__content_text div p{
+    line-height: 1.7rem;
+}
+#footer__content_text div span{
+    font-weight: bold;
+}
+.href_redes-sociales{
+    font-size: 1.3em;
+    margin-right: 1.2em;
 }

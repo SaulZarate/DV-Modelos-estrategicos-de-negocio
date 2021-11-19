@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Home</title>
+    <title>Empresa musical</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,13 +16,15 @@
     <!-- Mis estilos -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/deecb3ce02.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#"><h1 class="display-4">Logo</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,24 +33,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contáctanos</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- Main -->
     <main>
@@ -56,7 +59,7 @@
         <!-- 
             CAROUSEL
          -->
-        <section class="container-fluid container-md">
+        <section class="container-fluid container-md" id="inicio">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -68,8 +71,11 @@
                         <img src="https://picsum.photos/300/500?grayscale&random=1" height="500px" class="d-block w-100"
                             alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>First slide label</h3>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h3>Lo que ofrecemos</h3>
+                            <p>Nuestra aplicación te va a permitir agregar anotaciones como por ejemplo, matices,
+                                figuras musicales, texto y usar un borrador entre otras cosas. Vas a poder realizar
+                                todas estas acciones de una forma muy sencilla e intuitiva y además, vas a poder guardar
+                                todo en la nube.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -108,23 +114,17 @@
         <section class="container py-5">
 
             <div class="row m-0 p-0">
-                <article class="col-12 col-md-4">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, sunt blanditiis! Repellat sequi
-                        illo repudiandae nam, facilis quasi tenetur non asperiores quod quia harum qu. Tenetur,
-                        laboriosam.</p>
+                <article class="col-12 col-md-6 text-center p-3">
+                    <h3 class="display-4">Lo que ofrecemos</h3>
+                    <p>Nuestra aplicación te va a permitir agregar anotaciones como por ejemplo, matices, figuras
+                        musicales, texto y usar un borrador entre otras cosas. Vas a poder realizar todas estas acciones
+                        de una forma muy sencilla e intuitiva y además, vas a poder guardar todo en la nube.</p>
                 </article>
-                <article class="col-12 col-md-4">
-                    <h3>Titulo</h3>
-                    <p>Esse voluptatum laborum aut aspernatur, obcaecati vel et reprehenderit quas amet architecto,
-                        saepe placeat eligendi omnis quo dolores nesciunt vero inventore enim! Facere seamus perferendis
-                        neque.</p>
-                </article>
-                <article class="col-12 col-md-4">
-                    <h3>Titulo</h3>
-                    <p>Repudiandae adipisci nemo iusto illum, obcaeque eos inventore, doloribus doloremque dolorum
-                        dolore! Debitis magni perferendis, neque quod illo repellat sint quasi nostrum asperiores ex?
-                    </p>
+                <article class="col-12 col-md-6 text-center p-3">
+                    <h3 class="display-4">Como encontrarnos</h3>
+                    <p>Al tener un equipo de trabaja funcionando completamente online no contamos con oficinas fisícas,
+                        pero pueden contactarnos mediante nuestro formulario de contacto en la parte inferior de la
+                        página.</p>
                 </article>
             </div>
 
@@ -134,29 +134,44 @@
         <!-- 
             NOSOTROS 
         -->
-        <section class="bg-light py-5 border-top border-bottom">
+        <section class="bg-light py-5 border-top border-bottom" id="nosotros">
             <div class="container">
                 <h2 class="display-4 text-center mb-5">Nosotros</h2>
 
                 <!-- Historia de la empresa -->
-                <article class="my-3" id="nosotros__article-historia">
+                <article class="mb-3" id="nosotros__article-historia">
                     <h3 class="display-4 text-center text-md-left">Historia de la empresa</h3>
-                    <p>La idea del proyecto y la empresa surgue a partir de un ensayo en una orquesta en el cual no tenía las partituras necesarias para tocar, pero si tenía el PDF de las misma, gracias a esto, pude leer las partes durante el ensayo, pero no tenía ninguna posibilidad de hacer anotaciones a las partes (lo que hize en su momento fue anotar todo en una hora aparte). Por lo que me paso y el hecho de que tambien le paso a muchos compañeros surgio la idea de este proyecto.</p>
+                    <p>La idea del proyecto y la empresa surgue a partir de un ensayo en una orquesta en el cual uno de
+                        los fundadores no tenía las partituras necesarias para tocar, ya que no pudo imprimirlas, pero
+                        si tenía el PDF de las misma, gracias a esto, pudo leer las partes durante el ensayo, pero el
+                        problema surgio cuando tenia que realizar anotaciones a las partes (lo que hize en su momento
+                        fue anotar todo en una hora aparte) y como no las estaba leyendo del PDF no podia. Por lo que le
+                        paso y el hecho de que tambien le paso a muchos de sus compañeros, surgio la idea de este
+                        proyecto.</p>
                 </article>
 
+                <!-- Separador -->
+                <hr class="mt-5">
+
                 <!-- Información de la empresa -->
-                <section class="row m-0 p-0 mt-4">
+                <section class="row m-0 p-0 ">
                     <article class="col-12 col-md-4 text-center p-3">
                         <h3 class="display-4">Misión</h3>
-                        <p>La misión de nuestra empresa es ayudar a todo tipo de músico a realizar anotaciones de una forma sencilla en cualquier partitura sin la necesidad de tener que llevar todas las partituras de un lado a otro.</p>
+                        <p>La misión de nuestra empresa es ayudar a todo tipo de músico a realizar anotaciones de una
+                            forma sencilla en cualquier partitura sin la necesidad de tener que llevar todas las
+                            partituras de un lado a otro.</p>
                     </article>
                     <article class="col-12 col-md-4 text-center p-3">
                         <h3 class="display-4">Visión</h3>
-                        <p>Nuestra visión a largo plazo es que con el tiempo podamos crear un dispositivo exclusivo para esta aplicación con muchas mas funcionalidades, como por ejemplo, que se adapte a cualquier tipo de atril o que tenga un accesorio que reemplaze al mismo entre otras cosas.</p>
+                        <p>Nuestra visión a largo plazo es que con el tiempo podamos crear un dispositivo exclusivo para
+                            esta aplicación con muchas mas funcionalidades, como por ejemplo, que se adapte a cualquier
+                            tipo de atril o que tenga un accesorio que reemplaze al mismo entre otras cosas.</p>
                     </article>
                     <article class="col-12 col-md-4 text-center p-3">
                         <h3 class="display-4">Objetivos</h3>
-                        <p>Nuestro objetivo es que todo lo necesario para para </p>
+                        <p>Nuestro objetivo a corto plazo es alcanzar una cantidad de cuentas premium lo suficientemente
+                            grande como para quitar los anuncios, esto con el objetivo de darle al usuario una mejor
+                            experiencia.</p>
                     </article>
                     <!-- <article class="col-12 col-md-6 col-lg-3 text-center">
                         <h3 class="display-4">Equipo</h3>
@@ -169,13 +184,10 @@
         </section>
 
 
-        <!-- LO QUE OFRECEMOS -->
-        <!-- Nuestra aplicación te va a permitir agregar anotaciones como por ejemplo, matices, figuras musicales, texto y usar un borrador entre otras cosas. Vas a poder realizar todas estas acciones de una forma muy sencilla e intuitiva y además, vas a poder guardar todo en la nube. -->
-
         <!-- 
             SERVICIOS
         -->
-        <section class="container py-5">
+        <section class="container py-5" id="servicios">
             <h2 class="display-4 text-center mb-5">Servicios</h2>
 
             <!-- Acerca de la aplicación y link de descargas -->
@@ -202,13 +214,15 @@
                         <button class="btn btn-secondary">Play Store</button>
                     </div>
                 </article>
-                
+
             </div>
 
             <!-- Donaciones -->
             <article class="alert alert-light border my-5 p-4 text-center" role="alert">
                 <h4 class="alert-heading">Donaciones</h4>
-                <p>Como mencionamos en la visión de la empresa, tenemos un objetivo grande a largo plazo y nos sería de mucha ayuda si pudieras aportarnos un poco de capital para financiarlo. A continuación dejaremos un link para realizar la donación.</p>
+                <p>Como mencionamos en la visión de la empresa, tenemos un objetivo grande a largo plazo y nos sería de
+                    mucha ayuda si pudieras aportarnos un poco de capital para financiarlo. A continuación dejaremos un
+                    link para realizar la donación.</p>
                 <hr>
                 <button class="btn btn-outline-success">Donar</button>
             </article>
@@ -233,7 +247,7 @@
                 <!-- Cuenta premium -->
                 <article class="col-12 col-md-6 p-0 text-center precios__tipos-de-cuentas">
                     <h3 class="display-4 text-secondary">Cuenta premium</h3>
-                    <p >Solución ideal para músicos profesionales</p>
+                    <p>Solución ideal para músicos profesionales</p>
                     <p class="h4">AR$100,00/mes</p>
                     <ul class="p-0">
                         <li>Cantidad de proyectos (ilimitada)</li>
@@ -253,7 +267,7 @@
         <!-- 
             Testimonios
         -->
-        <section class="bg-light py-5 border-top border-bottom">
+        <section class="bg-light py-5 border-top border-bottom" id="testimonios">
             <div class="container">
                 <!-- Titulo -->
                 <h2 class="display-4 text-center">Testimonios</h2>
@@ -299,9 +313,9 @@
         <!-- 
             Contacto
         -->
-        <section class="container my-5">
+        <section class="container my-5" id="contacto">
             <!-- Titulo -->
-            <h2 class="display-4 mb-5 ">Contactanos</h2>
+            <h2 class="display-4 mb-5 ">Contáctanos</h2>
 
             <form action="#" method="get">
                 <div class="form-row">
@@ -336,51 +350,68 @@
 
 
     <!-- Footer -->
-    <footer class="bg-light pt-4 border-top">
+    <footer class="bg-light border-top">
 
-        <!-- Content Links -->
-        <div class="container text-center text-md-left pb-3">
-            <div class="row">
+        <!-- Content -->
+        <div class="container py-4">
 
-                <!-- Column 1 -->
-                <div class="col-md-5 mt-md-0 mt-3">
-                    <!-- Titulo -->
-                    <h5 class="text-uppercase">Ubicación del equipo</h5>
-                    <p>Todo nuestro equipo se encuentra en C.A.B.A.</p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.34084438716!2d-58.50334536572773!3d-34.615743688997895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1637339334912!5m2!1ses!2sar"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+            <!-- Navbar -->
+            <div class="row text-center d-flex justify-content-center m-0">
+
                 <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Column 2 -->
-                <div class="col-md-4 mb-md-0 mb-3">
-                    <!-- Titulo -->
-                    <h5 class="text-uppercase">Contactanos</h5>
-                    <!-- Links -->
-                    <ul class="list-unstyled">
-                        <li><a href="#!">Tel: +54 9 11 6155-0931</a></li>
-                        <li><a href="#!">Tel: +54 9 11 4123-5124</a></li>
-                        <li><a href="#!">Email: empresa.musical@musical.com</a></li>
-                    </ul>
+                <div class="navbar__content_href col-md-2 mb-3">
+                    <a href="#inicio" class="text-secondary">Inicio</a>
                 </div>
 
+                <!-- Grid column -->
+                <div class="Navbar__content_href col-md-2 mb-3">
+                    <a href="#nosotros" class="text-secondary">Nosotros</a>
+                </div>
 
-                <!-- Column 3 -->
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <!-- Titulo -->
-                    <h5 class="text-uppercase">Redes sociales</h5>
-                    <!-- Links -->
-                    <ul class="list-unstyled">
-                        <li><a href="#!">Linkdin</a></li>
-                        <li><a href="#!">Facebook</a></li>
-                        <li><a href="#!">Instagram</a></li>
-                        <li><a href="#!">Twitter</a></li>
-                    </ul>
+                <!-- Grid column -->
+                <div class="Navbar__content_href col-md-2 mb-3">
+                    <a href="#servicios" class="text-secondary">Servicios</a>
+                </div>
+
+                <!-- Grid column -->
+                <div class="Navbar__content_href col-md-2 mb-3">
+                    <a href="#testimonios" class="text-secondary">Testimonios</a>
+                </div>
+
+                <!-- Grid column -->
+                <div class="Navbar__content_href col-md-2">
+                    <a href="#contacto" class="text-secondary">Contáctanos</a>
                 </div>
 
             </div>
+            <!-- Separador -->
+            <hr>
+
+            <!-- Información -->
+            <div class="row d-flex text-center justify-content-center py-4" id="footer__content_text">
+                <div class="col-md-8 col-12 m-0 p-0">
+                    <p class="text-secondary mb-0">Como no contamos con oficinas físicas, ya que todo el proyecto se esta desarrollando de forma 100% online, puede contactarse con nosotros por teléfono al <span class="text-primary">11-6612-9418</span> o por cualquiera de la siguiente redes sociales. </p>
+                </div>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="row mb-3">
+                <div class="col-md-12 mx-auto text-center p-0">
+                    <!-- Facebook -->
+                    <a href="#" class="fb-ic href_redes-sociales"><i class="fab fa-facebook-f fa-lg text-secondary"></i></a>
+                    <!-- Twitter -->
+                    <a href="#" class="tw-ic href_redes-sociales"><i class="fab fa-twitter fa-lg text-secondary"></i></a>
+                    <!-- Google +-->
+                    <a href="#" class="gplus-ic href_redes-sociales"><i class="fab fa-google-plus-g fa-lg text-secondary"></i></a>
+                    <!--Linkedin -->
+                    <a href="#" class="li-ic href_redes-sociales"><i class="fab fa-linkedin-in fa-lg text-secondary"></i></a>
+                    <!--Instagram-->
+                    <a href="#" class="ins-ic href_redes-sociales"><i class="fab fa-instagram fa-lg text-secondary"></i></a>
+                    <!--Pinterest-->
+                    <a href="#" class="pin-ic href_redes-sociales"><i class="fab fa-pinterest text-secondary"></i></a>
+                </div>
+            </div>
+
         </div>
 
         <!-- Copyright -->
@@ -389,7 +420,6 @@
         </div>
 
     </footer>
-    <!-- Footer -->
 
 
 
