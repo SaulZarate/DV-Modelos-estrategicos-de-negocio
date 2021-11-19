@@ -1,7 +1,5 @@
 html {
     scroll-behavior: smooth;
-   /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
-   para probar la diferencia con y sin scroll suavizado*/
 }
 a{
     text-decoration: none!important;
@@ -21,7 +19,10 @@ h3{
 h4{
     font-size: 2em!important;
 }
-/* NOSOTORS */
+h5{
+    font-size: 2.2em!important;
+}
+/* INICIO */
 
 /* SERVICIOS */
 .precios__tipos-de-cuentas h3{
